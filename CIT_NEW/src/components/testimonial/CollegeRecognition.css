@@ -1,0 +1,174 @@
+.college-recognition {
+  /* display: flex; */
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.college-recognition-head {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.college-recognition-name {
+  font-size: 25px;
+  color: #2f1aa4;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.college-recognition-info {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.main-ins-slider {
+  align-content: center;
+  width: 80%;
+  height: 320px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 5vh;
+}
+
+#slider {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.slider-icon {
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  background: white;
+
+  position: absolute;
+  text-align: center;
+  border-radius: 50px;
+  opacity: 0;
+}
+
+.left {
+  left: 0;
+  cursor: pointer;
+}
+
+.right {
+  right: 0;
+  cursor: pointer;
+}
+
+.left:hover,
+.right:hover {
+  opacity: 1;
+}
+
+.slider-card {
+  height: 270px;
+  width: 320px;
+  display: inline-block;
+  border-radius: 20px;
+  margin: 0px 45px;
+  overflow-wrap: break-word;
+}
+
+.college-recognition ::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+.slider-card-image {
+  height: 200px;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.slider-card-title {
+  color: #1e209e;
+  font-weight: bolder;
+  margin-top: -40px;
+}
+
+.slider-card-title,
+.slider-card-description {
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.slider-card-description {
+  font-weight: 500;
+  font-style: italic;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-break: anywhere;
+}
+
+.slider-card-image-main {
+  height: 100px;
+  width: 120px;
+  margin: 0px 100px;
+  margin-top: 50px;
+}
+
+.main-company-slider {
+  width: 90%;
+  height: 158px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-left: 5vw;
+  margin-top: 5vh;
+}
+
+.slider-company-card {
+  height: 100px;
+  width: 150px;
+  display: inline-block;
+  border-radius: 20px;
+  margin: 0px 45px;
+  overflow-wrap: break-word;
+}
+
+.slider-card-image-company {
+  height: 50px;
+  width: 80%;
+
+  /* margin: 0px 100px ; */
+  margin-top: 20px;
+}
+#c-slider {
+  height: 100%;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.placement {
+  text-align: center;
+}
+.placement-com {
+  font-size: 20px;
+  color: #05da41;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.placement-slogan {
+  font-size: 40px;
+  margin: 0px 120px;
+  margin-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+}

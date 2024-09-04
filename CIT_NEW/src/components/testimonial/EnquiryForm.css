@@ -1,0 +1,74 @@
+/* EnquiryForm.css */
+
+
+/* Modal form styling */
+.enquiry-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: static;
+ margin-top: 10px;
+  z-index: 10; /* Ensure it's above the overlay */
+  width: 100vw;
+}
+
+.e-header-section {
+  border-bottom: 1px solid grey;
+  padding: 15px;
+  display: flex;
+}
+
+.enquiry-form-inner {
+  width: 500px;
+  background: linear-gradient(to bottom, rgb(209, 163, 251), rgb(167, 233, 255));
+  height: fit-content;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.e-header {
+  margin: 10px;
+  color: rgb(73, 69, 69);
+  width: 100%;
+}
+
+.form-area {
+  margin: 20px;
+  background: rgba(141, 165, 168, 0.2);
+  text-align: center;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.in {
+  width: 85%;
+  margin-left: 35px;
+}
+
+.e-h-en {
+  padding-top: 7px;
+}
+
+.cross {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  cursor: pointer;
+}
+
+.cross span {
+  background-color: rgb(73, 69, 69);
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 25%;
+  color: white;
+}
+
+.s-btn {
+  border-radius: 50px;
+}

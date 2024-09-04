@@ -1,0 +1,39 @@
+.Outerbox {
+  display: flex;
+  margin-top: 4.5rem;
+  margin-left: 10%;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  text-align: left;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 0px 3px rgb(255, 255, 255);
+  font-size: 22px;
+}
+
+.menu > li:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.container {
+  display: grid;
+  cursor: pointer;
+  max-width: 1000px;
+  min-width: auto;
+  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
+  height: 20rem;
+  overflow-y: scroll;
+  height: 600px;
+  cursor: grab;
+}
+
+.container img {
+  width: 300px;
+  height: 300px;
+}
